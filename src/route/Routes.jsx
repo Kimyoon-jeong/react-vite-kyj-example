@@ -1,7 +1,8 @@
-import React, { Component } from 'react'
-import HomePage from '../pages/HomePage'
-import BoardPage from '../pages/BoardPage'
-import ProfilePage from '../pages/ProfilePage'
+import React, { Component } from 'react';
+import HomePage from '../pages/HomePage';
+import BoardPage from '../pages/BoardPage';
+import ProfilePage from '../pages/ProfilePage';
+import PropsPage from '../pages/PropsPage';
 //react routes, route 사용시 배열로 관리하기
 const routes = [
     {
@@ -21,6 +22,12 @@ const routes = [
         element: <ProfilePage />,
         title: 'Profile',
     },
-]
 
-export default routes
+    {
+        path: '/props',
+        element: <PropsPage />,
+        title: '프롭스',
+    },
+];
+
+export default routes;
