@@ -4,6 +4,7 @@ import BoardPage from '../pages/BoardPage';
 import ProfilePage from '../pages/ProfilePage';
 import PropsPage from '../pages/PropsPage';
 import ThreePage from './../pages/ThreePage';
+import CounterPage from '../pages/CounterPage';
 //react routes, route 사용시 배열로 관리하기
 const routes = [
     {
@@ -33,6 +34,11 @@ const routes = [
         path: '/three',
         element: <ThreePage />,
         title: '조건부랜더링',
+    },
+    {
+        path: '/usestate',
+        element: <CounterPage />,
+        title: 'useState 연습',
     },
 ];
 
