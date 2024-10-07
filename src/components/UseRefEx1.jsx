@@ -20,13 +20,13 @@ const UseRefEx1 = () => {
 
     //prettier-ignore
     return (
-        <div>
-            <p>State :{count}</p>
-            <p>Ref :{countRef.current}</p>
-            <button onClick={increaseCountState}>State 값 올리라</button>
-            <button onClick={increaseCountRef}>Ref 값 올리라</button>      
-        </div>
-    )
+    <div>
+        <p>State :{count}</p>
+        <p>Ref :{countRef.current}</p>
+        <button onClick={increaseCountState}>State 값 올리라</button>
+        <button onClick={increaseCountRef}>Ref 값 올리라</button>      
+    </div>
+  )
 };
 
 export default UseRefEx1;
