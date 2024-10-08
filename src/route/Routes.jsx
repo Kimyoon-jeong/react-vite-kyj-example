@@ -9,6 +9,8 @@ import InputPage from './../pages/InputPage';
 import GradePage from './../pages/GradePage';
 import UseRefPage from '../pages/UseRefPage';
 import UseRefPage2 from './../pages/UseRefPage2';
+import UseArrayPage from './../pages/UseArrayPage';
+import UserCrudPage from '../pages/UserCrudPage';
 
 //react routes, route 사용시 배열로 관리하기
 const routes = [
@@ -64,6 +66,12 @@ const routes = [
         path: '/useRef2',
         element: <UseRefPage2 />,
         title: 'useRef 예제2',
+    },
+    {
+        path: '/userpage',
+        //element: <UseArrayPage />,
+        element: <UserCrudPage />,
+        title: '유저페이지(배열)',
     },
 ];
 
