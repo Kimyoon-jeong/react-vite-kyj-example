@@ -8,6 +8,7 @@ import CounterPage from '../pages/CounterPage';
 import InputPage from './../pages/InputPage';
 import GradePage from './../pages/GradePage';
 import UseRefPage from '../pages/UseRefPage';
+import UseRefPage2 from './../pages/UseRefPage2';
 
 //react routes, route 사용시 배열로 관리하기
 const routes = [
@@ -58,6 +59,11 @@ const routes = [
         path: '/useRef',
         element: <UseRefPage />,
         title: 'useRef 예제1',
+    },
+    {
+        path: '/useRef2',
+        element: <UseRefPage2 />,
+        title: 'useRef 예제2',
     },
 ];
 
