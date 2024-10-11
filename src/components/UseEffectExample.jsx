@@ -31,6 +31,7 @@ const UseEffectExample = () => {
 
     useEffect(() => {
         // 컴포넌트가 처음 렌더링된 이후 실행
+
         // a나 b가 변경되어 컴포넌트가 재렌더링된 이후 실행
         console.log(`컴포넌트 변경 ${new Date()}`); //new는 생략가능
     }, [firstCount, secondCount]);
